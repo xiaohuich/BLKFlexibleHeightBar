@@ -56,6 +56,6 @@
 
 - (CGFloat)interpolateFromValue:(CGFloat)fromValue toValue:(CGFloat)toValue withProgress:(CGFloat)progress;
 
-- (void)didApplyLayoutAttributes:(UIView*)subview withProgress:(CGFloat)relativeProgress;
+- (void)didApplyLayoutAttributes:(UIView*)subview withRelativeProgress:(CGFloat)relativeProgress progress:(CGFloat)progress;
 
 @end
