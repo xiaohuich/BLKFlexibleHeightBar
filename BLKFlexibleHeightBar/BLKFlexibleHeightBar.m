@@ -201,7 +201,7 @@
     subview.layer.zPosition = floorLayoutAttributes.zIndex;
     subview.hidden = floorLayoutAttributes.isHidden;
 
-    [self didApplyLayoutAttributes:subview withRelativeProgress:relativeProgress progress:progress];
+    [self didApplyLayoutAttributes:subview withRelativeProgress:relativeProgress progress:_progress];
 }
 
 - (void)didApplyLayoutAttributes:(UIView*)subview withRelativeProgress:(CGFloat)relativeProgress progress:(CGFloat)progress
