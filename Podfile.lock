@@ -1,0 +1,17 @@
+PODS:
+  - BLKFlexibleHeightBar (1.0.2):
+    - SABlurImageViewObjc
+  - SABlurImageViewObjc (0.2.0)
+
+DEPENDENCIES:
+  - BLKFlexibleHeightBar (from `.`)
+
+EXTERNAL SOURCES:
+  BLKFlexibleHeightBar:
+    :path: .
+
+SPEC CHECKSUMS:
+  BLKFlexibleHeightBar: af76d8eabbdd03c6e555164722b5c850ea66b36a
+  SABlurImageViewObjc: dd7dccc6b1b437f53aadad645d9aa5dfb2346846
+
+COCOAPODS: 0.39.0

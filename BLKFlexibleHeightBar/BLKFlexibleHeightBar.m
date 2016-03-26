@@ -202,6 +202,11 @@
     subview.hidden = floorLayoutAttributes.isHidden;
 }
 
+- (void)didApplyLayoutAttributes:(UIView*)subview withProgress:(CGFloat)relativeProgress
+{
+    
+}
+
 - (CGFloat)interpolateFromValue:(CGFloat)fromValue toValue:(CGFloat)toValue withProgress:(CGFloat)progress
 {
     return fromValue - ((fromValue-toValue) * progress);

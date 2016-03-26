@@ -54,4 +54,8 @@
  */
 @property (nonatomic) BLKFlexibleHeightBarBehaviorDefiner *behaviorDefiner;
 
+- (CGFloat)interpolateFromValue:(CGFloat)fromValue toValue:(CGFloat)toValue withProgress:(CGFloat)progress;
+
+- (void)didApplyLayoutAttributes:(UIView*)subview withProgress:(CGFloat)relativeProgress;
+
 @end
