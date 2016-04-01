@@ -40,6 +40,11 @@
 @property (nonatomic) CGFloat progress;
 
 /**
+ The flag of whether interoperation should do.
+ */
+@property (nonatomic) BOOL enabled;
+
+/**
  The non-negative maximum height for the bar. The default value is 44.0.
  */
 @property (nonatomic) CGFloat maximumBarHeight;

@@ -27,6 +27,7 @@
 
 - (void)commonInit
 {
+    _enabled = YES;
     _progress = 0.0;
     _maximumBarHeight = 44.0;
     _minimumBarHeight = 20.0;
@@ -122,6 +123,7 @@
 
 - (void)applyFloorLayoutAttributes:(BLKFlexibleHeightBarSubviewLayoutAttributes *)floorLayoutAttributes ceilingLayoutAttributes:(BLKFlexibleHeightBarSubviewLayoutAttributes *)ceilingLayoutAttributes toSubview:(UIView *)subview withFloorProgress:(CGFloat)floorProgress ceilingProgress:(CGFloat)ceilingProgress;
 {
+    if (_enabled == NO) { return; }
     CGFloat numerator = self.progress-floorProgress;
     CGFloat denominator;
     if(ceilingProgress == floorProgress)
