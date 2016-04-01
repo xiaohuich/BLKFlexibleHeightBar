@@ -76,6 +76,8 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
+    
+    if (_enabled == NO) { return; }
 
     // Update height
     CGRect barFrame = self.frame;
